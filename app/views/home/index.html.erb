@@ -1,0 +1,7 @@
+<h1>Hola</h1>
+
+<%= form_tag("/home", method: "post") do %>
+  <%= label_tag(:api_key, "ApiKey:") %>
+  <%= text_field_tag(:api_key) %>
+  <%= submit_tag("ApiKey") %>
+<% end %>
